@@ -1,0 +1,38 @@
+{
+  "name": "gulp_new_setup",
+  "version": "1.0.0",
+  "description": "New Gulp Setup",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "dev": "gulp serve",
+    "prod": "cross-env NODE_ENV=prod gulp"
+  },
+  "keywords": [
+    "Gulp",
+    "Partials"
+  ],
+  "author": "Stephan Petersen",
+  "license": "MIT",
+  "dependencies": {
+    "clean-css": "^5.1.0",
+    "debug": "^4.3.1",
+    "gulp": "^4.0.2",
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "cross-env": "^7.0.2",
+    "del": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-html-partial": "^1.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-js-import": "^1.0.6",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-terser": "^1.4.0"
+  }
+}
