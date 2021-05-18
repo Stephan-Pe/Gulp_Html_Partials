@@ -1,5 +1,7 @@
 # Gulp HTML Partials Updated
 
+## regenerator-runtime resolved
+
 clone or download Repository
 
 run npm install
@@ -8,5 +10,5 @@ run npm install
 
 gulp serve
 
-npm run prod# Gulp_Html_Partials
-# Gulp_Html_Partials
+npm run prod
+### Gulp_Html_Partials
